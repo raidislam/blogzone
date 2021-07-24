@@ -12,8 +12,224 @@
 </head>
 
 <body>
+    <header>
+        <!-- top bar -->
+        <div class="top-bar">
+            <nav class="navbar navbar-expand-lg bg-light navbar-light p-md-4 p-3">
+                <div class="container border-bottom pb-md-3">
+                    <button class="navbar-toggler" data-bs-target='#navbar' data-bs-toggle="collapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-    <h1 class="">Hello</h1>
+                    <div class="collapse navbar-collapse" id="navbar">
+                        <ul class="navbar-nav mb-2 mb-lg-0">
+                            <li class="nav-item"><a href="" class="nav-link">About</a></li>
+                            <li class="nav-item"><a href="" class="nav-link">Forum</a></li>
+                            <li class="nav-item"><a href="" class="nav-link">Buy now!</a></li>
+                            <li class="nav-item"><a href="" class="nav-link">Login/Join</a></li>
+                        </ul>
+
+                        <div class="form-check form-switch ms-auto">
+                            <input type="checkbox" class="form-check-input " id="switchbox">
+                            <label for="switchbox" class="form-check-label switch"></label>
+                        </div>
+                        <ul class="nav">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link text-secondary fs-3">
+                                    <i class="fab fa-facebook-square"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link text-secondary fs-3">
+                                    <i class="fab fa-twitter-square"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link text-secondary fs-3">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link text-secondary fs-3">
+                                    <i class="fab fa-youtube-square"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link text-secondary fs-3">
+                                    <i class="fab fa-instagram-square"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!--  middle bar-->
+
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <div>
+                    <a href="#" class="navbar-brand d-none d-md-block">
+                        <img src="images/logo.png" class="img-fluid" height="30" alt="">
+                    </a>
+                </div>
+                <div class="d-none d-md-block">
+                    <div class="d-flex align-items-center ">
+                        <div class="dropdown me-4 ">
+                            <a href="#" class="dropdown-toggle text-decoration-none text-dark"
+                                data-bs-toggle="dropdown">
+                                Home
+                            </a>
+                            <ul class="dropdown-menu fs-4" aria-labelledby="dropdownMenu2">
+                                <li><button class="dropdown-item" type="button">Home</button></li>
+                                <li><button class="dropdown-item" type="button">Megazine classic</button></li>
+                                <li><button class="dropdown-item" type="button">Megazine</button></li>
+                                <li><button class="dropdown-item" type="button">Home cards</button></li>
+                            </ul>
+                        </div>
+                        <div class="dropdown me-4 ">
+                            <a href="#" class="dropdown-toggle text-decoration-none text-dark"
+                                data-bs-toggle="dropdown">
+                                Pages
+                            </a>
+                            <ul class="dropdown-menu fs-4" aria-labelledby="dropdownMenu2">
+                                <li><button class="dropdown-item" type="button">Home</button></li>
+                                <li><button class="dropdown-item" type="button">Megazine classic</button></li>
+                                <li><button class="dropdown-item" type="button">Megazine</button></li>
+                                <li><button class="dropdown-item" type="button">Home cards</button></li>
+                            </ul>
+                        </div>
+                        <div class="dropdown me-4">
+                            <a href="#" class="dropdown-toggle text-decoration-none text-dark"
+                                data-bs-toggle="dropdown">
+                                Posts
+                            </a>
+                            <ul class="dropdown-menu fs-4" aria-labelledby="dropdownMenu2">
+                                <li><button class="dropdown-item" type="button">Home</button></li>
+                                <li><button class="dropdown-item" type="button">Megazine classic</button></li>
+                                <li><button class="dropdown-item" type="button">Megazine</button></li>
+                                <li><button class="dropdown-item" type="button">Home cards</button></li>
+                            </ul>
+                        </div>
+                        <div class="dropdown me-4">
+                            <a href="#" class="dropdown-toggle text-decoration-none text-dark"
+                                data-bs-toggle="dropdown">
+                                Lifestyle
+                            </a>
+                            <ul class="dropdown-menu fs-4" aria-labelledby="dropdownMenu2">
+                                <li class=""><button class="dropdown-item" type="button">Home</button></li>
+                                <li><button class="dropdown-item" type="button">Megazine classic</button></li>
+                                <li><button class="dropdown-item" type="button">Megazine</button></li>
+                                <li><button class="dropdown-item" type="button">Home cards</button></li>
+                            </ul>
+                        </div>
+                        <div class="dropdown me-4">
+                            <a href="#" class="text-decoration-none text-dark" data-bs-toggle="dropdown">
+                                Components
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-flex align-items-center">
+                    <button class="btn btn-danger px-md-5 py-md-3">Subscribe</button>
+                    <div class="dropdown ms-4">
+                        <a href="#" data-bs-toggle="dropdown">
+                            <i class="text-dark fas fa-search"></i>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-end mt-md-3">
+                            <form action="" class="p-3">
+                                <input type=" search" name="" class="form-control p-3" id="" placeholder="search..."
+                                    style="width: 400px;">
+                                <button class="btn btn-success px-5 py-3 mt-2">Search</button>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- Offcanvas -->
+                    <div class="">
+                        <a class="ms-3" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight">
+                            <i class="text-dark fas fa-bars"></i>
+                        </a>
+
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight">
+                            <div class="offcanvas-header">
+                                <h2 id="offcanvasRightLabel">BlogZine</h2>
+                                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <div class="">
+                                    <div class="dropdown me-4 dropend mb-3">
+                                        <a href="#" class="dropdown-toggle text-decoration-none text-dark"
+                                            data-bs-toggle="dropdown">
+                                            Home
+                                        </a>
+                                        <ul class="dropdown-menu fs-4 ms-4" aria-labelledby="dropdownMenu2">
+                                            <li><button class="dropdown-item" type="button">Home</button></li>
+                                            <li><button class="dropdown-item" type="button">Megazine classic</button>
+                                            </li>
+                                            <li><button class="dropdown-item" type="button">Megazine</button></li>
+                                            <li><button class="dropdown-item" type="button">Home cards</button></li>
+                                        </ul>
+                                    </div>
+                                    <div class="dropdown me-4 dropend mb-3">
+                                        <a href="#" class="dropdown-toggle text-decoration-none text-dark"
+                                            data-bs-toggle="dropdown">
+                                            Pages
+                                        </a>
+                                        <ul class="dropdown-menu fs-4 ms-4" aria-labelledby="dropdownMenu2">
+                                            <li><button class="dropdown-item" type="button">Home</button></li>
+                                            <li><button class="dropdown-item" type="button">Megazine classic</button>
+                                            </li>
+                                            <li><button class="dropdown-item" type="button">Megazine</button></li>
+                                            <li><button class="dropdown-item" type="button">Home cards</button></li>
+                                        </ul>
+                                    </div>
+                                    <div class="dropdown me-4 dropend mb-3">
+                                        <a href="#" class="dropdown-toggle text-decoration-none text-dark"
+                                            data-bs-toggle="dropdown">
+                                            Posts
+                                        </a>
+                                        <ul class="dropdown-menu fs-4 ms-4" aria-labelledby="dropdownMenu2">
+                                            <li><button class="dropdown-item" type="button">Home</button></li>
+                                            <li><button class="dropdown-item" type="button">Megazine classic</button>
+                                            </li>
+                                            <li><button class="dropdown-item" type="button">Megazine</button></li>
+                                            <li><button class="dropdown-item" type="button">Home cards</button></li>
+                                        </ul>
+                                    </div>
+                                    <div class="dropdown me-4 dropend mb-3">
+                                        <a href="#" class="dropdown-toggle text-decoration-none text-dark"
+                                            data-bs-toggle="dropdown">
+                                            Lifestyle
+                                        </a>
+                                        <ul class="dropdown-menu fs-4 ms-4" aria-labelledby="dropdownMenu2">
+                                            <li class=""><button class="dropdown-item" type="button">Home</button></li>
+                                            <li><button class="dropdown-item" type="button">Megazine classic</button>
+                                            </li>
+                                            <li><button class="dropdown-item" type="button">Megazine</button></li>
+                                            <li><button class="dropdown-item" type="button">Home cards</button></li>
+                                        </ul>
+                                    </div>
+                                    <div class="dropdown me-4">
+                                        <a href="#" class="text-decoration-none text-dark" data-bs-toggle="dropdown">
+                                            Components
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </header>
+    <!-- script bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+    </script>
     <script src="js/bootstrap.min.js"></script>
 </body>
 
